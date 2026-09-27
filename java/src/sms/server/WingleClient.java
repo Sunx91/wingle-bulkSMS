@@ -286,6 +286,11 @@ public final class WingleClient {
         return out;
     }
 
+    /** How many messages are currently stored in the device Sent box (cap is 50). */
+    public int sentBoxCount() throws IOException {
+        return parseIntOr(text(get("message"), "sms_nv_send_num"), 0);
+    }
+
     /** SIM present according to the "wan" document (sim_status 0 = OK). */
     public String simStatus() throws IOException {
         return text(get("wan"), "sim_status");
