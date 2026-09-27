@@ -1,0 +1,21 @@
+# Compiled Java
+java/out/
+*.class
+*.jar
+!java/lib/*.jar
+
+# Runtime output (phone numbers, messages, reports)
+sms_list.txt
+reports/
+backups/
+*.log
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
