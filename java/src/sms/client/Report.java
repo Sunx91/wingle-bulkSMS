@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Writes the summary report of one run to reports/sms_report_yyyyMMdd_HHmmss.txt (next to the list).
+ * Writes the summary report of one run to reports/sms_report_yyyyMMdd_HHmmss.txt  (next to the list).
  */
 final class Report {
 
